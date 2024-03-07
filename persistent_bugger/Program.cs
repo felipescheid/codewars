@@ -15,6 +15,11 @@ if (!long.TryParse(args[0], out long number))
 	return;
 }
 
+if (number < 0)
+{
+	Console.WriteLine("WARNING: does not support negative numbers yet. value will always be 0");
+}
+
 
  int Persistence(long n, int counter = 0)
 {

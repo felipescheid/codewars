@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "persistent_bugger/1.0.0": {
+        "runtime": {
+          "persistent_bugger.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "persistent_bugger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

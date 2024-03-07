@@ -1,0 +1,15 @@
+/Users/felipe/Code/personal/codewars/persistent_bugger/bin/Debug/net8.0/persistent_bugger
+/Users/felipe/Code/personal/codewars/persistent_bugger/bin/Debug/net8.0/persistent_bugger.deps.json
+/Users/felipe/Code/personal/codewars/persistent_bugger/bin/Debug/net8.0/persistent_bugger.runtimeconfig.json
+/Users/felipe/Code/personal/codewars/persistent_bugger/bin/Debug/net8.0/persistent_bugger.dll
+/Users/felipe/Code/personal/codewars/persistent_bugger/bin/Debug/net8.0/persistent_bugger.pdb
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.AssemblyInfoInputs.cache
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.AssemblyInfo.cs
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.csproj.CoreCompileInputs.cache
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.sourcelink.json
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.dll
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/refint/persistent_bugger.dll
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.pdb
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/persistent_bugger.genruntimeconfig.cache
+/Users/felipe/Code/personal/codewars/persistent_bugger/obj/Debug/net8.0/ref/persistent_bugger.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("persistent_bugger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802d856577979ff684ee6ff180f1a53ec1a1ade1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+530053f48a742d38745dd29d3b39d20893b12dd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("persistent_bugger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("persistent_bugger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,22 +1,27 @@
-﻿// Can we use recursion in C#? Let's find out
-int number = 237;
-Console.WriteLine($"Persistence for {number} is {PersistentBugger.Persistence(number)}");
+﻿// Teaching myself how to use recursion in C#
+if (args.Length != 1)
+{
+	Console.WriteLine("Usage: dotnet run <number>");
+	return;
+}
+
+if (!long.TryParse(args[0], out long number))
+{
+	Console.WriteLine("Invalid number format");
+	return;
+}
+
+Console.WriteLine($"Persistence for number {args[0]} is {PersistentBugger.Persistence(number)}");
+
 
 class PersistentBugger
 {
-	private static int counter = 0;
-
-	public static int Persistence(long n)
+	public static int Persistence(long n, int counter = 0)
 	{
-		/*
-		 * Now here is what we want to do:
-		 * 1) breakdown the number into its own digits
-		 * 2) multiply all digits and check result
-		 * 3) create a counter starting at 1
-		 * 4) if result has single digit, return counter
-		 * 5) else, increment counter and call function again with result
-		 */
-		counter++;
+		if (n < 10)
+		{
+			return counter;
+		}
 
 		string text = n.ToString();
 		long product = 1;
@@ -28,12 +33,7 @@ class PersistentBugger
 			product *= num;
 		}
 
-		if (product > 10)
-		{
-			Console.WriteLine($"Product for {n} is {product}. Re-calling function with {product}");
-			return Persistence(product);
-		} 
+		return Persistence(product, counter + 1);
 
-		return counter;
 	}
 }
